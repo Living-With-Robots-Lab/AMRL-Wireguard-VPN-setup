@@ -32,3 +32,7 @@
     ```
     sudo systemctl enable wg-quick@wg0
     ```
+
+### How to Connect to BWIBOTs?
+- use ``` ssh {username}@{IP ADDRESS OF BWIBOT} ```
+- Example: For Dobby use: ssh bwilab@10.0.0.140
