@@ -33,6 +33,17 @@
     sudo systemctl enable wg-quick@wg0
     ```
 
-### How to Connect to BWIBOTs?
+## Mac Machine
+1. Install wireguard:
+    - Go to [website for wireguard app](https://apps.apple.com/us/app/wireguard/id1451685025?mt=12) and click “view in Mac App Store”
+    - Once open in Mac store, Get, then Install
+2. Create a wireguard tunnel
+    - In the wireguard application, click the plus, and select "Add empty tunnel".
+    - Using the private key that is automatically populated in the text box for \<Private Key\>, paste in the wireguard configuration found in step 4 of "Linux Machine".
+    - The IP address field should be a unique (and not already used) IP address that is assigned to your computer. Get yout assigned ip by following step 3 of "Linux Machine"
+3. (When using) Select your configured tunnel and click "Activate"
+
+
+## How to Connect to BWIBOTs?
 - use ``` ssh {username}@{IP ADDRESS OF BWIBOT} ```
 - Example: For Dobby use: ssh bwilab@10.0.0.140
